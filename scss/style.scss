@@ -1,0 +1,90 @@
+@import "_nullstyle";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+
+}
+body {
+
+}
+
+.wrapper {
+
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100%;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.calculator__body {
+    // min-height: 500px;
+    width: 500px;
+    background-color: rgb(88, 88, 88);
+    border-radius: 40px;
+    padding: 30px;
+    box-shadow: 1px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.display {
+    width: 100%;
+    min-height: 100px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 0px 10px;
+    font-size: 30px;
+    text-align: right;
+    padding: 30px;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.btn {
+    height: 90px;
+    width: 90px;
+    background-color: rgb(196, 157, 123);
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 0px 10px;
+    padding-top: 30px;
+    &:hover{
+        background-color: rgb(190, 143, 103);
+    }
+    &:active {
+        background-color: rgb(27, 85, 27);
+    }
+}
+
+.hooks {
+    background-color: rgb(114, 97, 81);
+    &:hover{
+        background-color: rgb(155, 72, 61);
+    }
+    &:active {
+        background-color: rgb(93, 15, 15);
+    }
+}
+
+.footer {
+    font-weight: 500;
+}
